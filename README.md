@@ -1,2 +1,2 @@
 # Web-Project
-Personal Project of a Athletics Stat Tracker
+Personal Project of an Athletics Stat Tracker
