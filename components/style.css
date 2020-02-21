@@ -1,0 +1,86 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+  background-color: black;
+}
+
+.playerListHidden {
+  display: none;
+}
+.playerListVisible {
+  display: initial;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+
+  border: 2px solid black;
+  background-color: #5e8649;
+  border-radius: 5px;
+}
+
+table {
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 100%;
+  overflow-x: auto;
+}
+th{
+  background-color: #1a260f;
+  color: white;
+}
+td {
+  color : inherit;
+  text-align: center;
+}
+tr:hover {
+  background-color: #5a6e4f;
+}
+
+button {
+  margin-top:20px;
+  margin-bottom:20px;
+  text-align: center;
+}
+div {
+  overflow-x: auto;
+}
+
+.basicText{
+  color: white;
+  padding: 5px;
+}
+
+.tab {
+  padding-left: 15px;
+}
+
+.centerFormat {
+  position: relative;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.centerText {
+  text-align: center;
+  color: white;
+}
+
+.curTeam {
+  color: cyan;
+}
+
+.notCurTeam {
+  color: white;
+}
